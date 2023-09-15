@@ -43,11 +43,11 @@ function calcularPromedio(n1,n2,n3)
   return promedio
 }
 
-//Ingresamos las 3 notas con prompt y encerramos al prompt con la función Number
-//para que el dato sea ingresado de tipo numérico
-//let notaExamen1 = Number(prompt('Ingresa la nota del 1er examen'))
-//let notaExamen2 = Number(prompt('Ingresa la nota del 2do examen'))
-//let notaExamen3 = Number(prompt('Ingresa la nota del 3er examen'))
-//
-////mostramos el promedio en una alerta, pasando el valor de las 3 notas cargadas por el prompt
-//alert('El promedio de la materia es: '+ calcularPromedio(notaExamen1, notaExamen2, notaExamen3))
+/*Ingresamos las 3 notas con prompt y encerramos al prompt con la función Number
+para que el dato sea ingresado de tipo numérico*/
+let notaExamen1 = Number(prompt('Ingresa la nota del 1er examen'))
+let notaExamen2 = Number(prompt('Ingresa la nota del 2do examen'))
+let notaExamen3 = Number(prompt('Ingresa la nota del 3er examen'))
+
+//mostramos el promedio en una alerta, pasando el valor de las 3 notas cargadas por el prompt
+alert('El promedio de la materia es: '+ calcularPromedio(notaExamen1, notaExamen2, notaExamen3))
