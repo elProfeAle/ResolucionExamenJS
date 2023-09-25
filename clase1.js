@@ -8,7 +8,8 @@ function calcularSalarioMensual(salarioAnual)
   por los 12 meses del año para obtener el salario
   mensual
    */
-  return salarioAnual / 12 
+  let resultado  = salarioAnual / 12 
+  return  resultado
 }
 
 //Mostramos el resultado de la función en la consola 
